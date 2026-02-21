@@ -1,0 +1,11 @@
+# Build output
+*.ankiaddon
+
+# redo state
+.redo/
+
+# Python
+__pycache__
+
+# Nix
+result
