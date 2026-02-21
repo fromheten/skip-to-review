@@ -1,4 +1,4 @@
-# Straight to Study - Anki Add-On
+# Skip to Review - Anki Add-On
 
 ## Build
 ### Nix
@@ -15,4 +15,4 @@ To get a shell with all development tools: `nix shell`
 ## Installation
 - In Anki, select Add-ons
 - "Install from file..."
-- `./result/straight-to-study.ankiaddon`
+- `./result/skip-to-review.ankiaddon`

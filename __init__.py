@@ -6,7 +6,7 @@ from aqt.qt import (
 from aqt.utils import showWarning
 
 
-def go_to_study() -> None:
+def go_to_review() -> None:
     config = mw.addonManager.getConfig(__name__)
     if not config or not config.get("enabled", True):
         return
@@ -79,4 +79,4 @@ action = QAction("Skip to Review Settings…", mw)
 action.triggered.connect(open_settings)
 mw.form.menuTools.addAction(action)
 
-gui_hooks.profile_did_open.append(go_to_study)
+gui_hooks.profile_did_open.append(go_to_review)
