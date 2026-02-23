@@ -8,9 +8,13 @@ To get a shell with all development tools: `nix shell`
 
 ## Other systems
 ### Requirements
-- Probaby python3
+- `zip`
 - `goredo`
-- If you build on another system, welcome to send a patch with how you build it.
+- If you build on another system, send a patch with build instructions
+
+To build: `redo ./skip-to-review.ankiaddon`
+
+And the add-on file will be at that path.
 
 ## Installation
 - In Anki, select Add-ons
